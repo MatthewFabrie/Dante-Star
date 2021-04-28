@@ -1,4 +1,4 @@
 # Dante-Star
 During this project we had to code an algorithm capable of creating a maze and solving mazes with the use of a pathfinding algorithm. This project was carried out by two with Darian Sereno (https://github.com/dariansereno)
 To launch the project, clone the repository and then type "make" in a terminal at the root of the project. once this is done, you can launch the generator with the command "./generator/generator x y [perfect]" (the x corresponds to the width of the maze you want to generate and the y corresponds to it's height, you can also add the "perfect" option which will generate a perfect maze (no loops and every path is reachable and there is only one path between 2 points in the maze) you can then insert the maze in a file with the simple > redirection (e.g: "./generator/generator 30 30 > map.txt))
-to launch the solver you must type "./solver/solver maze" with maze corresponding to the maze you want to solve in a text file (e.g: "./solver/solver map.txt") 
+to launch the solver you must type "./solver/solver maze" with maze corresponding to the maze you want to solve in a text file (e.g: "./solver/solver map.txt"). Final grade: 75%
